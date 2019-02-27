@@ -9,6 +9,9 @@
     "dev": "nodemon index",
     "test": "mocha --exit"
   },
+  "engines": {
+    "node": "10.14.1"
+  },
   "keywords": [
     "express",
     "curso"
