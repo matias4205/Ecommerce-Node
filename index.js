@@ -55,6 +55,6 @@ app.use(clientErrorHandler);
 app.use(errorHandler);
 
 
-const server = app.listen('3000', () => {
+const server = app.listen(process.env.PORT || 5000, () => {
     console.log('Server is setup and listening at -> http://localhost:' + server.address().port);
 });

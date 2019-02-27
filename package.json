@@ -4,8 +4,8 @@
   "description": "Curso platzi express",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "build": "NODE_ENV=production cd public/assets && cleancss -o main.min.css main.css",
+    "start": "set NODE_ENV=production&& node .",
+    "build": "cd public/assets && cleancss -o main.min.css main.css",
     "dev": "nodemon index",
     "test": "mocha --exit"
   },
